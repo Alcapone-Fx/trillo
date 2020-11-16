@@ -7,7 +7,7 @@ function Sidebar() {
   return (
     <nav className="sidebar">
       <ul className="side-nav">
-        <li className="side-nav__item">
+        <li className="side-nav__item side-nav__item--active">
           <a href="/" className="side-nav__link">
             <svg className="side-nav__icon">
               <use xlinkHref={`${sprite}#icon-home`}></use>
