@@ -25,14 +25,14 @@ function Header() {
         <div className="user-nav__icon-box">
           <svg className="user-nav__icon">
             <use xlinkHref={`${sprite}#icon-bookmark`}></use>
-            <span className="user-nav__notification">?</span>
           </svg>
+          <span className="user-nav__notification">7</span>
         </div>
         <div className="user-nav__icon-box">
           <svg className="user-nav__icon">
             <use xlinkHref={`${sprite}#icon-chat`}></use>
-            <span className="user-nav__notification">13</span>
           </svg>
+          <span className="user-nav__notification">13</span>
         </div>
         <div className="user-nav__user">
           <img
