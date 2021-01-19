@@ -1,3 +1,9 @@
+@import "../../assets/sass/abstract";
+
 .content {
   display: flex;
+
+  @media only screen and (max-width: $bp-medium) {
+    flex-direction: column;
+  }
 }

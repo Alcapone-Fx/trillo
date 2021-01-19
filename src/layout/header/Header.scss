@@ -1,10 +1,18 @@
+@import '../../assets/sass/abstract';
+
 .header {
   background-color: #fff;
   border-bottom: var(--line);
-  display: flex;
   height: 7rem;
+  display: flex;
   justify-content: space-between;
   align-items: center;
+
+  @media only screen and (max-width: $bp-smallest){
+    align-content: space-around;
+    flex-wrap: wrap;
+    height: 11rem;
+  }
 }
 
 .logo {
@@ -17,6 +25,12 @@
   display: flex;
   flex: 0 0 40%;
   justify-content: center;
+
+  @media only screen and (max-width: $bp-smallest){
+    background-color: var(--color-grey-light-2);
+    flex: 0 0 100%;
+    order: 1;
+  }
 
   &__input {
     background-color: var(--color-grey-light-2);

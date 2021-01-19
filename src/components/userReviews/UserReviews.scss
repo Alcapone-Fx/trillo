@@ -1,10 +1,17 @@
+@import '../../assets/sass/abstract';
+
 .review {
   background-color: #fff;
   box-shadow: var(--shadow-light);
   margin-bottom: 3.5rem;
+  overflow: hidden;
   padding: 3rem;
   position: relative;
-  overflow: hidden;
+
+  @media only screen and (max-width: $bp-medium){
+    margin-bottom: 3rem;
+    padding: 2rem;
+  }
 
   &__text {
     margin-bottom: 2rem;
