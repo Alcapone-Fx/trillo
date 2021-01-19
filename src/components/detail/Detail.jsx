@@ -4,6 +4,7 @@ import imgUser3 from '../../assets/img/user-3.jpg';
 import imgUser4 from '../../assets/img/user-4.jpg';
 import imgUser5 from '../../assets/img/user-5.jpg';
 import imgUser6 from '../../assets/img/user-6.jpg';
+import Review from '../userReviews/UserReviews';
 
 import './Detail.scss';
 
@@ -40,6 +41,7 @@ const Detail = () => {
           </div>
         </div>
       </div>
+      <Review />
     </div>
   );
 };
